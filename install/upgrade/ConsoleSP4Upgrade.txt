@@ -1,0 +1,59 @@
+# Sun Mar 11 14:09:09 AEDT 2018
+# Replay feature output
+# ---------------------
+# This file was built by the Replay feature of InstallAnywhere.
+# It contains variables that were set by Panels, Consoles or Custom Code.
+
+
+
+#Upgrade
+#-------
+PRODUCT_UPGRADE=true
+DB_SIZE=1
+USE_EXISTING_DB=1
+USER_INSTALL_DIR=C:\\soft\\Program Files\\Dynatrace\\RUM\ Console
+
+#Install
+#-------
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\Change\ RUM\ Console\ Installation.lax=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\resource\\iawin64_x64.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\resource\\iawin32.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\resource\\win64_32_x64.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\resource\\remove.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\Uninstall\\resource\\invoker.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\Admin.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\check.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\checkValue.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\DProcess.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\drestart.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\dstart.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\dstop.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\logmsg_x64.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\ntlmauth.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\phantomjs-rasterize.js=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\phantomjs.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\processwrapper.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\runasadmin.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\RunServer.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\serverLog.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\TraceIcon.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\TraceIcon.tmx=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\tcnative-1.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\uninstall.reg=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\uninstallWatchdog.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\uninstallWatchdog.reg=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\values.txt=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\windowsjre.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\watchdog_nt.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\saPwd.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\startMenuLinks.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\server\\startMenuLinks4win2012.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\tools\\SMLink.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\tools\\GetSMFolder.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\index.url=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\license.txt=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\RUM\ Console\\index.html=Yes
+
+#Ready to Start
+#--------------
+START_WATCHDOG=0

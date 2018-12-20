@@ -1,0 +1,63 @@
+# Sun Mar 11 14:20:55 AEDT 2018
+# Replay feature output
+# ---------------------
+# This file was built by the Replay feature of InstallAnywhere.
+# It contains variables that were set by Panels, Consoles or Custom Code.
+
+
+
+#Upgrade
+#-------
+PRODUCT_UPGRADE=true
+DB_SIZE=1
+USE_EXISTING_DB=1
+USER_INSTALL_DIR=C:\\soft\\Program Files\\Dynatrace\\CAS
+
+#Install
+#-------
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\Change\ Central\ Analysis\ Server\ Installation.lax=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\resource\\iawin64_x64.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\resource\\iawin32.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\resource\\win64_32_x64.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\resource\\remove.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\Uninstall\\resource\\invoker.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\Admin.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\check.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\checkValue.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\DProcess.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\drestart.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\dstart.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\dstop.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\logmsg_x64.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\ntlmauth.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\phantomjs-rasterize.js=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\phantomjs.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\processwrapper.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\runasadmin.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\RunServer.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\serverLog.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\TraceIcon.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\TraceIcon.tmx=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\tcnative-1.dll=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\uninstall.reg=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\uninstallWatchdog.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\uninstallWatchdog.reg=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\values.txt=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\windowsjre.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\watchdog_nt.exe=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\saPwd.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\startMenuLinks.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\server\\startMenuLinks4win2012.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\index.url=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\license.txt=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\index.html=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\Compuware\ License\ Management\ 4.0.msi=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\DLM.msi=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\install.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\uninstall40.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\uninstall41andLater.bat=Yes
+-fileOverwrite_C\:\\soft\\Program\ Files\\Dynatrace\\CAS\\dlm\\x64\\upgrade.bat=Yes
+
+#Ready to Start
+#--------------
+START_WATCHDOG=0
